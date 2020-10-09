@@ -60,6 +60,11 @@ public class agendaService {
 
         return "Nenhum contato com esse numero";
     }
+    
+    public void Agenda(String nome){
+        System.out.println("\nNome: "+nome
+                +"\n\n");
+    }
 
     public void mostrar(){
         listaContatos.forEach(System.out::println);
